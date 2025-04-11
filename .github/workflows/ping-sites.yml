@@ -13,5 +13,5 @@ jobs:
       - name: Call Tommie's Grocery Price Checker
         run: curl -s https://grocery-price-checker.onrender.com/
 
-      # - name: Call ai-recipe-generator-search
-      #   run: curl -s https://grocery-price-checker.onrender.com/admin/category/api
+      - name: Call Discover Toronto Events on Map
+        run: curl -s https://discover-toronto-events-on-map.onrender.com/
