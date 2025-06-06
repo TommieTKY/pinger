@@ -2,16 +2,16 @@ name: Ping AI Recipe Sites
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # Every 5 minutes
+    - cron: "*/10 * * * *" # Every 5 minutes
   workflow_dispatch: # Optional: allows manual triggering
 
 jobs:
   ping-sites:
     runs-on: ubuntu-latest
 
-    # steps:
-      # - name: Call Tommie's Grocery Price Checker
-      #   run: curl -s https://grocery-price-checker.onrender.com/
+    steps:
+      - name: Call Tommie's Grocery Price Checker
+        run: curl -s https://grocery-price-checker.onrender.com/
 
-      # - name: Call Discover Toronto Events on Map
-      #   run: curl -s https://discover-toronto-events-on-map.onrender.com/
+      - name: Call Discover Toronto Events on Map
+        run: curl -s https://discover-toronto-events-on-map.onrender.com/
