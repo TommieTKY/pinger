@@ -2,7 +2,7 @@ name: Ping AI Recipe Sites
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # Every 5 minutes
+    - cron: "*/5 * * * *" # Every 5 minutes
   workflow_dispatch: # Optional: allows manual triggering
 
 jobs:
